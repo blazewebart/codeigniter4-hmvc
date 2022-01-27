@@ -231,7 +231,13 @@
 
 <section>
 
-	<h1>About this page</h1>
+	<h1>About HMVC Modules - Blog</h1>
+
+	<a href="/blog/">Go to blog page</a>
+
+	<pre><code>modules/Blog/Controllers/Blog.php</code></pre>
+
+	<h2>About this page</h2>
 	
 	<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
@@ -242,12 +248,6 @@
 	<p>The corresponding controller for this page can be found at:</p>
 
 	<pre><code>app/Controllers/Home.php</code></pre>
-
-	<h3>Module Blog</h3>
-
-	<a href="/blog/">Go to blog page</a>
-
-	<pre><code>module/Blog/Controllers/Blog.php</code></pre>
 
 </section>
 
