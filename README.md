@@ -14,7 +14,7 @@ go to project
 cd codeigniter4-hmvc
 ``` 
 
-get relatives 
+get relatives
 ```sh
 composer update --no-dev
 ``` 
@@ -26,7 +26,7 @@ php spark serve
 
 # Second - description
 
-replace in this file '/codeigniter4-hmvc/app/Config/Autoload.php' code below, with connecting your new module 
+if you need add new module, replace in this file '/codeigniter4-hmvc/app/Config/Autoload.php' code below, with connecting your new module 
 
 ```sh
     public $psr4 = [
@@ -36,8 +36,9 @@ replace in this file '/codeigniter4-hmvc/app/Config/Autoload.php' code below, wi
     ];
 ``` 
 
-
 that is all, add in module folder '/codeigniter4-hmvc/modules/' your new modules
+
+# p.s
 
 Thanks a lot, Konstantin)
 
