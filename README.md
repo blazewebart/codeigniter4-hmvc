@@ -1,32 +1,32 @@
 # CodeIgniter 4 HMVC Modular
 
-Get start, simple steps
+Get start to simple steps below
 
-#First - installation
+# First - installation
 
-- clone project
+clone project
 ```sh
 git clone https://github.com/blazewebart/codeigniter4-hmvc.git
 ``` 
 
-- go to project
+go to project
 ```sh
 cd codeigniter4-hmvc
 ``` 
 
-- get relatives 
+get relatives 
 ```sh
 composer update --no-dev
 ``` 
 
-- run local server
+run local server
 ```sh
 php spark serve
 ``` 
 
-#Second - description
+# Second - description
 
-- add to this file in project '/codeigniter4-hmvc/app/Config/Autoload.php'
+add to this file in project '/codeigniter4-hmvc/app/Config/Autoload.php'
 
 ```sh
     public $psr4 = [
@@ -36,5 +36,5 @@ php spark serve
     ];
 ``` 
 
-- and that is all, add in module folder your code '/codeigniter4-hmvc/modules/' 
+and that is all, add in module folder your code '/codeigniter4-hmvc/modules/' 
 
