@@ -26,7 +26,7 @@ php spark serve
 
 # Second - description
 
-add to this file in project '/codeigniter4-hmvc/app/Config/Autoload.php'
+replace in this file '/codeigniter4-hmvc/app/Config/Autoload.php' code below, with connecting your new module 
 
 ```sh
     public $psr4 = [
@@ -36,5 +36,8 @@ add to this file in project '/codeigniter4-hmvc/app/Config/Autoload.php'
     ];
 ``` 
 
-and that is all, add in module folder your code '/codeigniter4-hmvc/modules/' 
+
+that is all, add in module folder '/codeigniter4-hmvc/modules/' your new modules
+
+Thanks a lot, Konstantin)
 
