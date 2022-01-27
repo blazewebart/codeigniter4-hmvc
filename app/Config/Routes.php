@@ -49,3 +49,26 @@ $routes->get('/', 'Home::index');
 if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
+
+/*
+ * --------------------------------------------------------------------
+ * Modular Routing
+ * --------------------------------------------------------------------
+*/
+$modules_path = ROOTPATH . 'Modules/';
+$modules = scandir($modules_path);
+
+foreach ($modules as $module) {
+    if ($module === '.' || $module === '..') {
+        continue;
+    }
+
+    if (is_dir($modules_path) . '/' . $module) {
+        $routes_path = $modules_path . $module . '/Config/Routes.php';
+        if (file_exists($routes_path)) {
+            require $routes_path;
+        } else {
+            continue;
+        }
+    }
+}

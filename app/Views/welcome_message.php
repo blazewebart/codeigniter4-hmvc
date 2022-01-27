@@ -232,7 +232,7 @@
 <section>
 
 	<h1>About this page</h1>
-
+	
 	<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
 	<p>If you would like to edit this page you will find it located at:</p>
@@ -242,6 +242,12 @@
 	<p>The corresponding controller for this page can be found at:</p>
 
 	<pre><code>app/Controllers/Home.php</code></pre>
+
+	<h3>Module Blog</h3>
+
+	<a href="/blog/">Go to blog page</a>
+
+	<pre><code>module/Blog/Controllers/Blog.php</code></pre>
 
 </section>
 
