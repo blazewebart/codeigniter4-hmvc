@@ -17,5 +17,5 @@
 <br />
 
 <div>
-    <a href='/blog/post/'>Got to Post page</a>
+    <a href='/blog/post/'>Go to Post page</a>
 </div>
